@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Wealth$hare</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body>
+    <div id="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+        <img class="icon" src="../img/fav.png" />
+    </div>
+    <main id="site" role="main"></main>
+    <style>
+        html {
+            min-height: 100%;
+            height: 100%;
+            background: #fff;
+        }
+
+        #site {
+            opacity: 0;
+            transition: all 2s ease;
+        }
+
+        #preloader {
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+            margin: 0 auto !important;
+            display: table;
+        }
+
+            #preloader:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: -1px;
+                top: -1px;
+                height: 100%;
+                width: 100%;
+                -webkit-animation: rotation 1s linear infinite;
+                animation: rotation 1s linear infinite;
+                border: 2px solid #CEAA36;
+                border-top: 1px solid transparent;
+                border-radius: 100%;
+            }
+
+            #preloader > .icon {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                right: 0;
+                margin: 0 auto !important;
+                display: table;
+                -webkit-animation: wink 1s ease-in-out infinite alternate;
+                animation: wink 1s ease-in-out infinite alternate;
+                border-radius: 50px;
+                width: 60%;
+            }
+
+        @-webkit-keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        @-webkit-keyframes wink {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes wink {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</body>
+</html>
