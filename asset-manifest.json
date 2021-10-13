@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/unlockwealth/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/unlockwealth/static/js/main.cb4db944.chunk.js",
+    "main.js.map": "/unlockwealth/static/js/main.cb4db944.chunk.js.map",
+    "runtime-main.js": "/unlockwealth/static/js/runtime-main.b9a27414.js",
+    "runtime-main.js.map": "/unlockwealth/static/js/runtime-main.b9a27414.js.map",
+    "static/js/2.376388b2.chunk.js": "/unlockwealth/static/js/2.376388b2.chunk.js",
+    "static/js/2.376388b2.chunk.js.map": "/unlockwealth/static/js/2.376388b2.chunk.js.map",
+    "static/js/3.fa5e6694.chunk.js": "/unlockwealth/static/js/3.fa5e6694.chunk.js",
+    "static/js/3.fa5e6694.chunk.js.map": "/unlockwealth/static/js/3.fa5e6694.chunk.js.map",
+    "index.html": "/unlockwealth/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/unlockwealth/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.376388b2.chunk.js.LICENSE.txt": "/unlockwealth/static/js/2.376388b2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9a27414.js",
+    "static/js/2.376388b2.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.cb4db944.chunk.js"
+  ]
+}
